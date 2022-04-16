@@ -29,7 +29,7 @@ export default function Index() {
   return (
     <Container maxWidth="xl">
       <Box sx={{ my: 2 }}>
-        <Typography variant="subtitle1">huangq@mit.edu</Typography>
+        <Typography align="right" variant="subtitle1">huangq@mit.edu</Typography>
         <Typography variant="h4" component="h1" gutterBottom>
           New Course 6 Classes Search
         </Typography>
