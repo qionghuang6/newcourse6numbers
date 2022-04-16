@@ -16,7 +16,7 @@ export default function Index() {
     subject.newnum.includes(searchStr) || subject.title.includes(searchStr) || searchStr.length == 0)
 
   const classesElements = filteredClasses.map((element, index) => (
-    <Grid item key={index} xs={6} sm={4} lg={3}>
+    <Grid item key={index} xs={12} sm={6} md={4} lg={3}>
       <Box bgcolor="#d0f7c1" key={index} m={1} p={1}>
         <Typography variant="h5">{`${element.newnum}, formerly ${element.oldnum}`}</Typography>
         <Typography variant="h5"></Typography>
